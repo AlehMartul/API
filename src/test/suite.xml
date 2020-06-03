@@ -1,0 +1,45 @@
+<suite name="suite">
+    <test name="testUser5">
+        <parameter name="name" value="name"/>
+        <parameter name="username" value="username"/>
+        <parameter name="email" value="email"/>
+        <parameter name="address" value="address"/>
+        <parameter name="phone" value="phone"/>
+        <parameter name="website" value="website"/>
+        <parameter name="company" value="company"/>
+        <parameter name="nameValue" value="Chelsey Dietrich"/>
+        <parameter name="usernameValue" value="Kamren"/>
+        <parameter name="emailValue" value="Lucio_Hettinger@annie.ca"/>
+        <parameter name="addressValue" value=
+                "[street:Skiles Walks, suite:Suite 351, city:Roscoeview, zipcode:33263, geo:[lat:-31.8129, lng:62.5342]]"/>
+        <parameter name="phoneValue" value="(254)954-1289"/>
+        <parameter name="websiteValue" value="demarco.info"/>
+        <parameter name="companyValue" value=
+                "[name:Keebler LLC, catchPhrase:User-centric fault-tolerant solution, bs:revolutionize end-to-end systems]"/>
+        <classes>
+        </classes>
+    </test>
+    <test name="testGetAllUsers">
+        <parameter name="name" value="name"/>
+        <parameter name="username" value="username"/>
+        <parameter name="email" value="email"/>
+        <parameter name="address" value="address"/>
+        <parameter name="phone" value="phone"/>
+        <parameter name="website" value="website"/>
+        <parameter name="company" value="company"/>
+        <parameter name="nameValue" value="Chelsey Dietrich"/>
+        <parameter name="usernameValue" value="Kamren"/>
+        <parameter name="emailValue" value="Lucio_Hettinger@annie.ca"/>
+        <parameter name="addressValue" value=
+                "{&quot;zipcode&quot;:&quot;33263&quot;,&quot;geo&quot;:{&quot;lng&quot;:&quot;62.5342&quot;,&quot;lat&quot;
+            :&quot;-31.8129&quot;},&quot;suite&quot;:&quot;Suite 351&quot;,&quot;city&quot;:&quot;Roscoeview&quot;,
+&quot;street&quot;:&quot;Skiles Walks&quot;}"/>
+        <parameter name="phoneValue" value="(254)954-1289"/>
+        <parameter name="websiteValue" value="demarco.info"/>
+        <parameter name="companyValue" value=
+                "{&quot;bs&quot;:&quot;revolutionize end-to-end systems&quot;,&quot;catchPhrase&quot;:
+&quot;User-centric fault-tolerant solution&quot;,&quot;name&quot;:&quot;Keebler LLC&quot;}"/>
+    </test>
+    <classes>
+    </classes>
+</suite>
