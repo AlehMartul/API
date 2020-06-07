@@ -4,7 +4,6 @@ import aquality.selenium.browser.AqualityServices;
 
 public class User {
 
-    private String id;
     private String name;
     private String username;
     private String email;
@@ -12,14 +11,6 @@ public class User {
     private String phone;
     private String website;
     private String company;
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;
@@ -87,6 +78,14 @@ public class User {
         user.setPhone(phone);
         user.setWebsite(website);
         user.setCompany(company);
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + name.hashCode() + username.hashCode();
+        return result;
     }
 
     @Override
