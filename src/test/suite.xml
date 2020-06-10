@@ -17,11 +17,22 @@
         <parameter name="companyValue" value=
                 "[name:Keebler LLC, catchPhrase:User-centric fault-tolerant solution, bs:revolutionize end-to-end systems]"/>
         <parameter name="addressValueForJsonObject" value=
-                "{&quot;zipcode&quot;:&quot;33263&quot;,&quot;geo&quot;:{&quot;lng&quot;:&quot;62.5342&quot;,&quot;lat&quot;:&quot;-31.8129&quot;},&quot;suite&quot;:&quot;Suite 351&quot;,&quot;city&quot;:&quot;Roscoeview&quot; ,&quot;street&quot;:&quot;Skiles Walks&quot;}"/>
+                "{&quot;zipcode&quot;:&quot;33263&quot;,&quot;geo&quot;:{&quot;lng&quot;:&quot;62.5342&quot;,&quot;lat&quot;:&quot;-31.8129&quot;},&quot;suite&quot;:&quot;Suite 351&quot;,&quot;city&quot;:&quot;Roscoeview&quot;,&quot;street&quot;:&quot;Skiles Walks&quot;}"/>
         <parameter name="companyValueForJsonObject" value=
                 "{&quot;bs&quot;:&quot;revolutionize end-to-end systems&quot;,&quot;catchPhrase&quot;:&quot;User-centric fault-tolerant solution&quot;,&quot;name&quot;:&quot;Keebler LLC&quot;}"/>
-            <classes>
-                <class name = "tests.ApiTest" />
-            </classes>
-        </test>
+        <parameter name="post99" value="99"/>
+        <parameter name="post150" value="150"/>
+        <parameter name="indexOfUserId5" value="4"/>
+        <parameter name="numberOfUserId5" value="5"/>
+        <parameter name="titleValue" value="temporibus sit alias delectus eligendi possimus magni"/>
+        <parameter name="bodyValue"
+                   value="quo deleniti praesentium dicta non quod aut est molestias molestias et officia quis nihil itaque dolorem quia"/>
+        <parameter name="valueOfUserId" value="10"/>
+        <parameter name="userIdValueForPost" value="1"/>
+        <parameter name="postBody"
+                   value="{&quot;title&quot;: &quot;temporibus sit alias delectus eligendi possimus magni&quot;, &quot;body&quot;: &quot;quo deleniti praesentium dicta non quod aut est molestias molestias et officia quis nihil itaque dolorem quia&quot;, &quot;userId&quot;: 1}"/>
+        <classes>
+            <class name="tests.ApiTest"/>
+        </classes>
+    </test>
 </suite>

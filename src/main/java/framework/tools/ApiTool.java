@@ -12,7 +12,7 @@ public class ApiTool {
         response.then().assertThat().statusCode(expStatusCode);
     }
 
-    public Response getResponse(String uri) {
+    public Response get(String uri) {
         AqualityServices.getLogger().info("Connecting with " + uri);
         Response response = RestAssured.get(uri).andReturn();
         AqualityServices.getLogger().info("Checking status code");
@@ -20,7 +20,7 @@ public class ApiTool {
         return response;
     }
 
-    public Response getResponse(String uri, int expStatusCode) {
+    public Response get(String uri, int expStatusCode) {
         AqualityServices.getLogger().info("Connecting with " + uri);
         Response response = RestAssured.get(uri).andReturn();
         AqualityServices.getLogger().info("Checking status code");
